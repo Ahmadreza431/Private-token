@@ -174,11 +174,11 @@
 	},
 	"sources": {
 		"res.sol": {
-			"keccak256": "0xc1c0bae5416a9cf0b2b95c29d2cd24e1d8f89e651a28f2d129526498fe3384ff",
+			"keccak256": "0x1b3a4be94e4fe21b674831eb7b53d8bba2cd4b947867ab1da9c35dc43caa947f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://989addeddf1abac412383e52c9dccd6829a18e4b237a33d440c22b77515f8ed4",
-				"dweb:/ipfs/QmPYeLTFBJF27xmDUWRsy4Nn9afNosBZss7KJgrfFN5phk"
+				"bzz-raw://ea1d927cda43b11eade2f77f003ccfc9c4097c8cd91ee6bcdd7b05cd0d0892c4",
+				"dweb:/ipfs/QmWJJUWKEzPemULUR35hPDtXesaAhm2e8czNfo3J4RbpAu"
 			]
 		}
 	},

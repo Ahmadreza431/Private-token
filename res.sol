@@ -26,8 +26,9 @@ contract Restaurant{
          address Customeraddress;
      }
      enum FAZ{
-        setmenu,//0
-        setorder//1
+        setmenu,
+        setorder,
+        setpay
       }
 
       FAZ public fazes; 
@@ -48,10 +49,13 @@ contract Restaurant{
      }
 
      function RegisterMenu(uint32 id , uint8 price , string memory name) public Owner(){
-         Foodmenu.push(foodmenu(id,price,name));
-         fazes = FAZ.setorder;
-
-     }
+         uint8 i;
+         for (i=0;i<Foodmenu.length;i++){
+             require(Foodmenu[i].id ==id,"The Idcode entered is duplicate...");
+             Foodmenu.push(foodmenu(id,price,name));
+             fazes = FAZ.setorder;
+            }
+         }
 
      function getorder(uint32 id , uint8 num ,string memory name , string memory delivery) public payable{
          tp=0;
