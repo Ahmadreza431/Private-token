@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.13+commit.abaa5c0e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -38,14 +38,14 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint32",
+						"internalType": "uint256",
 						"name": "id",
-						"type": "uint32"
+						"type": "uint256"
 					},
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "price",
-						"type": "uint8"
+						"type": "uint256"
 					},
 					{
 						"internalType": "string",
@@ -87,14 +87,14 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint32",
+						"internalType": "uint256",
 						"name": "id",
-						"type": "uint32"
+						"type": "uint256"
 					},
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "num",
-						"type": "uint8"
+						"type": "uint256"
 					},
 					{
 						"internalType": "string",
@@ -137,9 +137,9 @@
 				"name": "tp",
 				"outputs": [
 					{
-						"internalType": "uint32",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint32"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -174,11 +174,11 @@
 	},
 	"sources": {
 		"res.sol": {
-			"keccak256": "0x1b3a4be94e4fe21b674831eb7b53d8bba2cd4b947867ab1da9c35dc43caa947f",
+			"keccak256": "0xbb38336e0c61db2aa33818b107509f544c5e737bd972493b4ff68409c9ef61b9",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ea1d927cda43b11eade2f77f003ccfc9c4097c8cd91ee6bcdd7b05cd0d0892c4",
-				"dweb:/ipfs/QmWJJUWKEzPemULUR35hPDtXesaAhm2e8czNfo3J4RbpAu"
+				"bzz-raw://918a5c130f9332d4c524b1d6921aa38efade5768fa1570d54cb3c3ba7594976b",
+				"dweb:/ipfs/QmRJy2RhSnZ77VFczCYELDfrYZkZuStKUKpFcXPapXWyyq"
 			]
 		}
 	},
